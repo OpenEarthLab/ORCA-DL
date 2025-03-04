@@ -1,0 +1,15 @@
+accelerate==0.22.0
+einops==0.8.1
+fairscale==0.4.13
+global_land_mask==1.0.0
+gsw==3.6.19
+matplotlib==3.7.2
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.15.2
+seaborn==0.13.2
+timm==0.6.11
+torch==1.12.0
+tqdm==4.65.2
+transformers==4.28.1
+xarray==2023.8.0
