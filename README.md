@@ -25,7 +25,11 @@ pip install -r requirements.txt
 
 ### Resources Download
 
-All the predictions, trained model weights and data can be found in https://1drv.ms/f/c/49d761d10f0b201d/Emi9scIyaWBCrNTgRo6t12oBLnF2qGDRGj0M7-g0ekRM1A
+All the predictions, trained model weights and data can be found in:
+https://1drv.ms/f/c/49d761d10f0b201d/Emi9scIyaWBCrNTgRo6t12oBLnF2qGDRGj0M7-g0ekRM1A
+
+Model weights and statistics can also be found in the huggingface repo for quick access:
+https://huggingface.co/datasets/JayKuo/ORCA-DL-data/tree/main
 
 > **Note**
 > The data in the `train_data` and `valid_test_data` directories have been interpolated and normalized using the mean and standard deviation provided in the `stat` directory. Therefore, they can be directly fed into the model, primarily by concatenating them in the order of the variables.
